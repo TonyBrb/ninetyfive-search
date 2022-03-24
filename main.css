@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bw-box {
+  width: calc(100% - 330px);
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 115px;
+}
+
+header .header-top {
+  height: 50%;
+  background-color: #231F20;
+}
+
+header .header-top .bw-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header .header-top .bw-box .logo {
+  width: 160px;
+  padding: 16px 0;
+}
+
+header .header-top .bw-box .header-top-categories {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  width: 160px;
+  height: 35px;
+  padding: 9px 15px;
+  background-color: #F1F1F1;
+  margin: 10px 20px;
+}
+
+header .header-top .bw-box .header-top-categories span {
+  padding-left: 26px;
+}
+
+header .header-top .bw-box .header-top-search {
+  width: 475px;
+  height: 35px;
+  margin: 10px 0 9px -20px;
+  border: none;
+  padding-left: 15px;
+}
+
+header .header-top .bw-box .header-top-btn {
+  background-color: #AE1B21;
+  width: 65px;
+  height: 35px;
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+header .header-bottom {
+  height: 50%;
+  background-color: #AE1B21;
+}
+
+main {
+  min-height: 3000px;
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(35, 31, 32, 0.7), rgba(35, 31, 32, 0.7)), linear-gradient(175.6deg, #231F20 10.94%, #94171C 100%);
+}
+
+main .bw-box {
+  position: relative;
+}
+
+main .jumbotron {
+  position: absolute;
+}
+
+main p {
+  position: absolute;
+}
+
+main .left-menu {
+  width: 25%;
+  min-height: 1000px;
+  background-color: #FFF;
+  position: absolute;
+  top: 265px;
+}
+
+main .right-main {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  top: 265px;
+  left: 255px;
+  width: 75%;
+  min-height: 1000px;
+}
+
+main .right-main .deal-card {
+  width: 232px;
+  height: 307px;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+main .right-main .deal-card .deal-card-photo {
+  width: 100%;
+  padding: 16px;
+}
+
+main .right-main .deal-card .deal-card-photo img {
+  width: 100%;
+}
+
+main .right-main .deal-card .deal-card-description {
+  width: 100%;
+  height: 110px;
+  background-color: #22262E;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+main .right-main .deal-card .deal-card-description p {
+  padding: 16px 16px 26px 16px;
+}
+
+main .right-main .deal-card .deal-card-description div {
+  padding-left: 16px;
+  font-size: 10px;
+}
+
+main .right-main .deal-card .deal-card-bottom {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  background-color: #313439;
+}
+
+main .right-main .deal-card .deal-card-bottom img {
+  margin: 18px;
+}
+
+main .right-main .deal-card .deal-card-bottom .price {
+  position: absolute;
+  color: white;
+  bottom: 7px;
+  right: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+main .right-main .deal-card .deal-card-bottom .old-price {
+  position: absolute;
+  display: inline-block;
+  color: grey;
+  text-decoration: line-through;
+  bottom: 34px;
+  right: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

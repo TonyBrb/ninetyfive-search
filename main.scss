@@ -1,0 +1,157 @@
+@import 'variables';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bw-box{
+    width: calc(100% - 330px);
+    margin: 0 auto;
+  }
+
+header{
+  width: 100%;
+  height: 115px;
+  .header-top{
+    height: 50%;
+    background-color: $primary_color;
+    .bw-box{
+    display: flex;
+    flex-wrap: wrap;
+    .logo{
+      width: 160px;
+      padding: 16px 0;
+    }
+    .header-top-categories{
+      font-family: $primary_character;
+      font-weight: bold;
+      font-size: 14px;
+      width: 160px;
+      height: 35px;
+      padding: 9px 15px;
+      background-color: #F1F1F1;
+      margin: 10px 20px;
+      span{
+        padding-left: 26px;
+      }
+    }
+    .header-top-search{
+      width: 475px;
+      height: 35px;
+      margin: 10px 0 9px -20px;
+      border: none;
+      padding-left: 15px;
+    }
+    .header-top-btn{
+      background-color: $secondary_color;
+      width: 65px;
+      height: 35px;
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+   }
+  }
+
+  .header-bottom{
+    height: 50%;
+    background-color: $secondary_color;
+  }
+}
+
+main{
+  min-height: 3000px;
+  .bw-box{
+    position: relative;
+  }
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(35, 31, 32, 0.7), rgba(35, 31, 32, 0.7)), linear-gradient(175.6deg, #231F20 10.94%, #94171C 100%);
+  .jumbotron{
+    position: absolute;
+  }
+
+  p{
+    position: absolute;
+  }
+
+  .left-menu{
+    width: 25%;
+    min-height: 1000px;
+    background-color: #FFF;
+    position: absolute;
+    top: 265px;
+  }
+
+  .right-main{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 265px;
+    left: 255px;
+    width: 75%;
+    min-height: 1000px;
+    .deal-card{
+        width: 232px;
+        height: 307px;
+        background-color: #fff;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        .deal-card-photo{
+          width: 100%;
+          padding: 16px;
+          img{
+            width: 100%;
+          }
+        }
+        .deal-card-description{
+          width: 100%;
+          height: 110px;
+          background-color: $primary_color_card;
+          color: white;
+          font-family: $primary_character;
+          font-size: 16px;
+          p{
+            padding: 16px 16px 26px 16px;
+          }
+          div{
+            padding-left: 16px;
+            font-size: 10px;
+          }
+        }
+        .deal-card-bottom{
+          position: relative;
+          width: 100%;
+          height: 56px;
+          background-color: #313439;
+          img{
+            margin: 18px;
+          }
+          .price{
+            position: absolute;
+            color: white;
+            bottom: 7px;
+            right: 14px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: $primary_character;
+          }
+          .old-price{
+            position: absolute;
+            display: inline-block;
+            color: grey;
+            text-decoration: line-through;
+            bottom: 34px;
+            right: 16px;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: $primary_character;
+          }
+        }
+    
+      }
+  }
+}
